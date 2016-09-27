@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zeus.ak95.tictactoe" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launchico"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".First_Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Second_Main"
+            android:label="TicTacToe"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyCustomTheme" >
+        </activity>
+        <activity
+            android:name=".Third_One_Player"
+            android:label="Vs Computer"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyCustomTheme" >
+        </activity>
+        <activity
+            android:name=".Third_Two_Player"
+            android:label="Vs Human"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyCustomTheme" >
+        </activity>
+        <activity
+            android:name=".Four_Play"
+            android:label="Vs Computer"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyCustomTheme" >
+        </activity>
+        <activity
+            android:name=".Four_Play_Two"
+            android:label="Vs Human"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyCustomTheme" >
+        </activity>
+        <activity
+            android:name=".Fifth_About_Us"
+            android:label="Feedback"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyCustomTheme" >
+        </activity>
+        <activity
+            android:name=".Second_Extend"
+            android:label="Vs Computer"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyCustomTheme" >
+        </activity>
+        <activity
+            android:name=".Sixth_Help"
+            android:label="@string/title_activity_sixth__help"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyCustomTheme"
+            >
+        </activity>
+        <activity
+            android:name=".Seventh_About"
+            android:label="@string/title_activity_seventh__about"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyCustomTheme">
+        </activity>
+    </application>
+
+</manifest>

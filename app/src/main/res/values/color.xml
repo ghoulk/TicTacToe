@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="redpink">#F03032</color>
+    <color name="paleyellow">#FAF432</color>
+    <color name="green_spring1">#FF04FA9A</color>
+    <color name="green_spring_light">#FFAAFA9A</color>
+    <color name="grey_dark">#8F2F4F4F</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="blue_sky">#00c5cd</color>
+    <color name="whitetrans">#88D4FFFF</color>
+    <color name="blue_overlay">#500A6AA0</color>
+    <color name="blue_overlaydark">#990A6AA0</color>
+    <color name="black_overlay">#66000000</color>
+
+
+    <color name="green_mild_ultra_lite">#ddffee</color>
+    <color name="green_mild_lite">#aaeebb</color>
+    <color name="green_mild_med">#99eeaa</color>
+    <color name="green_mild_dark">#77dd99</color>
+    <color name="green_mediate_lite">#55ee77</color>
+    <color name="green_mediate_dark">#33dd55</color>
+    <color name="green_dark_lite">#11cc55</color>
+    <color name="green_dark_mid">#00dd55</color>
+    <color name="green_dark_heavy">#00ff66</color>
+    <color name="green_dark_ultra">#11ff77</color>
+    <color name="green_dark_super">#cc009955</color>
+
+
+</resources>

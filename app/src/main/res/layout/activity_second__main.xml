@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.zeus.ak95.tictactoe.Second_Main"
+    android:orientation="vertical"
+    android:background="@drawable/i514"
+    >
+    <LinearLayout
+        android:layout_width="match_parent" android:id="@+id/smll1"
+        android:layout_weight="10"
+        android:layout_height="match_parent" android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent" android:id="@+id/siv1"
+            android:layout_height="match_parent" android:layout_centerHorizontal="true"
+            android:src="@drawable/tictoe" android:layout_alignParentTop="true"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+        <LinearLayout
+    android:layout_width="match_parent" android:id="@+id/smll2"
+    android:layout_weight="3" android:gravity="center_horizontal"
+    android:layout_height="match_parent" android:orientation="vertical"
+            android:layout_marginTop="10dp"
+           >
+
+    <Button
+        android:layout_width="fill_parent" android:id="@+id/sbtn1"
+        android:textColor="@color/green_mild_lite" android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="One Player" android:background="@color/green_dark_super"
+        android:textSize="20sp" android:elevation="4dp"
+        android:layout_marginTop="15dp"
+        />
+    <Button
+        android:layout_width="fill_parent" android:id="@+id/sbtn2"
+        android:layout_height="wrap_content" android:text="Two Players"
+        android:textColor="@color/green_mild_lite" android:layout_weight="1"
+        android:background="@color/green_dark_super" android:elevation="4dp"
+         android:textSize="20sp" android:layout_marginTop="15dp"
+         />
+    <Button
+        android:layout_width="fill_parent" android:id="@+id/sbtn3"
+        android:layout_height="wrap_content" android:text="Help"
+        android:textColor="@color/green_mild_lite" android:layout_weight="1"
+         android:textSize="20sp" android:layout_marginTop="15dp"
+        android:background="@color/green_dark_super" android:elevation="4dp"
+        />
+
+    <Button
+        android:layout_width="fill_parent" android:id="@+id/sbtn4"
+        android:layout_height="wrap_content" android:text="Exit"
+        android:textColor="@color/green_mild_lite" android:layout_weight="1"
+         android:textSize="20sp" android:layout_marginTop="15dp"
+        android:background="@color/green_dark_super" android:elevation="4dp"
+        android:layout_marginBottom="15dp"
+        />
+
+
+</LinearLayout>
+
+
+</LinearLayout>

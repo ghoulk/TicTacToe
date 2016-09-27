@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zeus.ak95.tictactoe.Third_Player">
+    <item android:id="@+id/thback"
+        android:title="Back"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+    <item android:id="@+id/thfeedback"
+        android:title="FeedBack"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/thhelp" android:title="Help"
+        android:orderInCategory="100" android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <item android:id="@+id/thabout" android:title="About"
+        android:orderInCategory="100" android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <item android:id="@+id/thexit" android:title="Exit"
+        android:orderInCategory="100" android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+</menu>

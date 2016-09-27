@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second__main">Second_Main</string>
+    <string name="title_activity_third__one__player">Third_One_Player</string>
+    <string name="title_activity_third__two__player">Third_Two_Player</string>
+    <string name="title_activity_four__play">Four_Play</string>
+    <string name="title_activity_fifth__about__us">Fifth_About_Us</string>
+    <string name="title_activity_second__extend">Second_Extend</string>
+    <string name="title_activity_third__player">Third_Player</string>
+    <string name="title_activity_sixth__help">Sixth_Help</string>
+    <string name="title_activity_seventh__about">Seventh_About</string>
+</resources>

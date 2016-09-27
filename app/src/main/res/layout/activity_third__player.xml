@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.zeus.ak95.tictactoe.Third_Player"
+    android:background="@drawable/i514"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent" android:id="@+id/smll1"
+        android:layout_weight="10"
+        android:layout_height="match_parent" android:orientation="horizontal"
+        android:gravity="center">
+    <ImageView
+        android:layout_width="match_parent" android:id="@+id/thiv1"
+        android:layout_height="match_parent" android:src="@drawable/tictoe"
+        android:paddingBottom="20dp"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent" android:id="@+id/smll2"
+        android:layout_weight="8" android:background="@drawable/back05"
+        android:layout_height="match_parent" android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+    <LinearLayout
+        android:layout_width="fill_parent" android:layout_weight="1"
+        android:layout_height="wrap_content" android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="fill_parent" android:text="Players"
+            android:layout_height="fill_parent" android:textSize="20dp"
+            android:textColor="#ffffff" android:textStyle="bold"/>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent" android:id="@+id/thll1"
+    android:layout_height="wrap_content" android:layout_weight="1"
+    android:background="@drawable/capsule03" android:gravity="center"
+    android:layout_marginTop="8dp" android:elevation="4dp"
+    >
+
+    <EditText
+        android:layout_width="fill_parent" android:id="@+id/thet1"
+        android:layout_height="fill_parent"
+        android:inputType="textPersonName"
+        android:hint="Enter Player (X)" android:ems="10"
+        android:textColorHint="@color/grey_dark"
+        android:background="@color/transparent"
+        android:textDirection="ltr" android:layout_weight="1"
+        android:gravity="center" android:textColor="#ff449944"
+        android:text="andy" />
+    <TextView
+        android:layout_width="fill_parent" android:id="@+id/thtv1"
+        android:layout_height="wrap_content" android:text="X"
+        android:textColor="#FFFFFF" android:background="@drawable/circle2"
+        android:layout_marginRight="0dp"
+        android:textSize="13dp" android:gravity="center" android:layout_weight="6"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent" android:id="@+id/thll2"
+        android:layout_height="wrap_content" android:background="@drawable/capsule03"
+        android:gravity="center" android:layout_marginTop="8dp"
+        android:layout_weight="1" android:layout_marginBottom="8dp"
+        android:elevation="4dp">
+
+        <EditText
+            android:layout_width="fill_parent" android:id="@+id/thet2"
+            android:layout_height="fill_parent"
+             android:inputType="textPersonName"
+            android:hint="Enter Player (O)"
+            android:ems="10" android:textColorHint="@color/grey_dark"
+             android:textDirection="ltr" android:layout_weight="1"
+            android:gravity="center" android:textColor="#ff449944"
+            android:text="rubin" android:background="@color/transparent"/>
+
+        <TextView
+            android:layout_width="fill_parent" android:id="@+id/thtv2"
+            android:layout_height="wrap_content" android:text="O"
+            android:textColor="#FFFFFF" android:background="@drawable/circle2"
+            android:layout_marginRight="0dp" android:layout_gravity="center"
+            android:textSize="13dp" android:gravity="center" android:layout_weight="6"
+            />
+
+    </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent" android:id="@+id/smll3"
+        android:layout_weight="8" android:background="@drawable/back05"
+        android:layout_height="match_parent" android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+    <TextView
+        android:layout_width="wrap_content" android:id="@+id/thtv3"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:text="Start With"
+        android:layout_marginLeft="10dp" android:layout_weight="4"
+        android:textSize="20sp" android:gravity="center"
+        android:textColor="#ffffff" android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent" android:id="@+id/thll3"
+        android:layout_height="wrap_content" android:layout_marginBottom="8dp"
+         android:layout_marginTop="20dp" android:layout_weight="3">
+
+
+    <Button
+        android:layout_width="wrap_content" android:id="@+id/thbtn3"
+        android:textColor="#FFFFFF" android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true" android:text="X"
+        android:background="@drawable/circle" android:textSize="40sp"
+        android:elevation="4dp"
+         />
+
+    <Button
+        android:layout_width="wrap_content" android:id="@+id/thbtn4"
+        android:textColor="#FFFFFF" android:layout_marginRight="30dp"
+        android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true" android:text="O"
+        android:background="@drawable/circle" android:textSize="40sp"
+        android:elevation="4dp"
+        />
+</RelativeLayout>
+</LinearLayout>
+</LinearLayout>

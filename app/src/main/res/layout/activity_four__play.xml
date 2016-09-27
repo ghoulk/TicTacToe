@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" android:background="@drawable/i514"
+    tools:context="com.zeus.ak95.tictactoe.Four_Play">
+
+    <LinearLayout
+    android:layout_width="fill_parent" android:id="@+id/fpllm1"
+    android:layout_height="wrap_content" android:layout_weight="6"
+        android:orientation="horizontal" >
+        <ImageView
+            android:layout_width="fill_parent" android:id="@+id/fpiv1"
+            android:layout_height="fill_parent" android:src="@drawable/tictoe"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent" android:id="@+id/fpll"
+        android:layout_height="wrap_content" android:layout_weight="9"
+        android:orientation="horizontal" android:background="@drawable/back05"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="fill_parent" android:id="@+id/fptv1"
+            android:textColor="#ff008844"
+            android:text="" android:textSize="20sp"
+            android:layout_height="fill_parent"
+            android:gravity="center" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:id="@+id/fpllm3" android:layout_marginTop="10dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="6" android:orientation="vertical"
+    >
+ <LinearLayout
+     android:layout_width="fill_parent" android:id="@+id/fpll1"
+     android:layout_height="fill_parent" android:orientation="horizontal"
+     android:layout_weight="1" android:layout_marginTop="8dp">
+     <Button
+         android:layout_width="fill_parent" android:id="@+id/fpbtn11"
+         android:layout_height="fill_parent" android:layout_weight="1"
+         android:background="@drawable/cellshp"
+         />
+
+     <Button
+         android:layout_width="fill_parent" android:id="@+id/fpbtn12"
+         android:layout_height="fill_parent" android:layout_weight="1"
+         android:background="@drawable/cellshp"
+
+         />
+     <Button
+         android:layout_width="fill_parent" android:id="@+id/fpbtn13"
+         android:layout_height="fill_parent"  android:background="@drawable/cellshp"
+         android:layout_weight="1"
+         />
+
+
+ </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent" android:id="@+id/fpll2"
+        android:layout_height="fill_parent" android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="fill_parent" android:id="@+id/fpbtn21"
+            android:layout_height="fill_parent" android:layout_weight="1"
+            android:background="@drawable/cellshp"
+            />
+        <Button
+            android:layout_width="fill_parent" android:id="@+id/fpbtn22"
+            android:layout_height="fill_parent" android:background="@drawable/cellshp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="fill_parent" android:id="@+id/fpbtn23"
+            android:layout_height="fill_parent"  android:background="@drawable/cellshp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent" android:id="@+id/fpll3"
+        android:layout_height="fill_parent" android:orientation="horizontal"
+        android:layout_weight="1" android:layout_marginBottom="8dp">
+        <Button
+            android:layout_width="fill_parent" android:id="@+id/fpbtn31"
+            android:layout_height="fill_parent"  android:background="@drawable/cellshp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="fill_parent" android:id="@+id/fpbtn32"
+            android:layout_height="fill_parent" android:background="@drawable/cellshp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="fill_parent" android:id="@+id/fpbtn33"
+            android:layout_height="fill_parent"
+            android:background="@drawable/cellshp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

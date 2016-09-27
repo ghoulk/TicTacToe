@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.zeus.ak95.tictactoe.Sixth_Help"
+    android:orientation="vertical"
+    android:background="@drawable/i514">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent" android:id="@+id/sihllm1"
+        android:layout_height="wrap_content" android:layout_weight="10"
+        android:orientation="horizontal" android:background="@drawable/back05">
+        <ImageView
+            android:layout_width="fill_parent" android:id="@+id/sihiv1"
+            android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+            android:src="@drawable/tictoe" android:layout_alignParentTop="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent" android:id="@+id/sihllm2"
+        android:layout_height="wrap_content" android:layout_weight="12"
+        android:orientation="horizontal" android:background="@drawable/back05"
+        android:layout_marginTop="10dp" android:gravity="end|clip_horizontal">
+
+        <TextView
+            android:layout_width="fill_parent" android:id="@+id/sihtv1"
+            android:layout_height="wrap_content" android:textSize="20sp"
+            android:gravity="start" android:textStyle="bold"
+            android:text="How To Play :- "
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent" android:id="@+id/sihllm3"
+        android:layout_height="wrap_content" android:layout_weight="2.5"
+        android:orientation="vertical" android:background="@drawable/back05"
+        android:gravity="center_horizontal" android:layout_marginTop="15dp"
+        >
+
+        <EditText
+            android:layout_width="fill_parent" android:layout_marginTop="15dp"
+            android:layout_height="fill_parent" android:background="#FFFFFF"
+            android:verticalScrollbarPosition="right" android:scrollbarFadeDuration="500"
+            android:textSize="17dp" android:textColor="#429773" android:layout_marginBottom="12dp"
+            android:layout_marginLeft="5dp"
+            android:scrollbarStyle="insideInset"
+            android:text="
+      This App is designed by me.
+
+      Help Content will be
+      uploaded soon.
+fffffffffffffffffg
+      ggggggggggggggggggggggggggggggggggggg
+      this Ends Here.
+      "
+
+            />
+    </LinearLayout>
+</LinearLayout>

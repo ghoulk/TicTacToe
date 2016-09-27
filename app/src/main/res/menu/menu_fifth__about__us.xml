@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zeus.ak95.tictactoe.Fifth_About_Us">
+    <item android:id="@+id/ffback"
+        android:title="Back"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+    <item android:id="@+id/ffhelp" android:title="Help"
+        android:orderInCategory="100" android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <item android:id="@+id/ffabout" android:title="About"
+        android:orderInCategory="100" android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <item android:id="@+id/ffexit" android:title="Exit"
+        android:orderInCategory="100" android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+</menu>
